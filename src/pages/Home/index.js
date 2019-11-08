@@ -14,7 +14,7 @@ export default function Home() {
                 <strong>Chuteira</strong>
                 <span>R$ 200,00</span>
 
-                <button>
+                <button type="button">
                     <div>
                         <MdAddShoppingCart size={16} color="#FFF" /> 3
                     </div>
@@ -29,7 +29,7 @@ export default function Home() {
                 <strong>Chuteira</strong>
                 <span>R$ 200,00</span>
 
-                <button>
+                <button type="button">
                     <div>
                         <MdAddShoppingCart size={16} color="#FFF" /> 3
                     </div>
@@ -44,7 +44,7 @@ export default function Home() {
                 <strong>Chuteira</strong>
                 <span>R$ 200,00</span>
 
-                <button>
+                <button type="button">
                     <div>
                         <MdAddShoppingCart size={16} color="#FFF" /> 3
                     </div>
@@ -59,7 +59,7 @@ export default function Home() {
                 <strong>Chuteira</strong>
                 <span>R$ 200,00</span>
 
-                <button>
+                <button type="button">
                     <div>
                         <MdAddShoppingCart size={16} color="#FFF" /> 3
                     </div>
