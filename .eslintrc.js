@@ -32,7 +32,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'off',
     'no-unused-vars': 'off',
-    'no-console': 'off',
+    'no-console': ['error', { allow: ["tron"]}],
     'no-plusplus': 'off'
   },
 };
