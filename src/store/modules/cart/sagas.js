@@ -20,7 +20,7 @@ function* addToCart({ id }) {
 
     const currentAmount = productExists ? productExists.amount : 0;
 
-    const amount = currentAmount + 1;
+    let amount = currentAmount + 1;
 
     if (amount > stockAmount) {
         toast.error('Quantidade solicitada não disponível em Estoque!!!');
@@ -28,7 +28,7 @@ function* addToCart({ id }) {
     }
 
     if (productExists) {
-        const amount = productExists.amount + 1;
+        amount = productExists.amount + 1;
         yield put(updateAmountSuccess(id, amount));
     } else {
         const response = yield call(api.get, `/products/${id}`);
