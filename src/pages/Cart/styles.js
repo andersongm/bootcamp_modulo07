@@ -42,6 +42,10 @@ export const ProductTable = styled.table`
 
         strong {
             font-weight: bold;
+
+            &:last-child {
+                font-size: 20px;
+            }
         }
     }
 
